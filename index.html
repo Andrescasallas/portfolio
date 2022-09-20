@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Andres Casallas</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="Andres.jpg" alt="">
+            </div>
+            <h1>Andres Casallas</h1>
+            <h2>Programador web Junior</h2>
+            <div class="redes">
+                <a href="https://linkedin.com/in/sof-andrescasallas" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/Andrescasallas" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Andres.</span> Estudiante de ingeniería de software. Soy desarrollador web junior, con conocimiento en Html, Css, JavaScrip, Php, Mysql, React, entre otros. Me destaco por el deseo de aprender cada día mas, me gustan los retos y el trabajo en equipo. De mi experiencia laboral desarrolle habilidades como, poder administrar el tiempo efectivamente y tener una comunicación asertiva con mi equipo de trabajo.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            12-11-1999
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +57 3104950639
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            andrescasallas0520@hotmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            https://andrescasallas.github.io/curriculum/
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Neiva-Hula. Colombia
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Desarrollador web junior</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>iOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-walking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-code"></i>
+                            <span>PROGRAMAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-motorcycle"></i>
+                            <span>MOTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-mug-hot"></i>
+                            <span>CAFE</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>91%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>93%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MYSQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>91%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>NODE JS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Angular </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>59%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Adaptabilidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingeniería de Software</h4>
+                        <span class="casa">Fundacion escuela tecnologica</span>
+                        <span class="fecha">2019 - 2024</span>
+                        <p>Estudiante de ingeniería de software, septimo semestre.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Tecnólogo en Desarrollo de Sistemas de Información </h4>
+                        <span class="casa">Fundacion escuela tecnologica</span>
+                        <span class="fecha">2019 - 2022</span>
+                        <p></p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Técnico Profesional en Soportes en Sistemas Informáticos </h4>
+                        <span class="casa">Fundacion escuela tecnologica</span>
+                        <span class="fecha">2019 - 2021</span>
+                        <p></p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Técnico  en Sistemas  </h4>
+                        <span class="casa">Servicio naciona de aprendizaje SENA</span>
+                        <span class="fecha">2018 - 2019</span>
+                        <p></p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Técnico en sistemas</h4>
+                        <span class="casa">Actividades de servicio e instalacion Cobra.</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p>Brindar soporte técnico en el área de sistemas a los distintos clientes de la compañía Movistar. Realizar mantenimientos preventivos y correctivos a las redes. Realizar la instalación de los servicios a los nuevos clientes de la compañía.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Soporte técnico</h4>
+                        <span class="casa">Compañia D'sierra SAS</span>
+                        <span class="fecha">2019 - 2019</span>
+                        <p>Brindar soporte técnico en el área de sistemas a los distintos supermercados de la compañía, hardware y software. Brindar soporte vía conexión remora o presencial sobre el software Siesa y Siesa Pos que maneja la compañía.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Digitador</h4>
+                        <span class="casa">Huellas de amor para tu vida</span>
+                        <span class="fecha">2017 - 2018</span>
+                        <p>Encargado de ingresar al sistema informático toda la documentación requerida por el ICBF a los usuarios de programas. Verificación y generación de reportes inicial y finales de los programas. Sistematización y manejo de herramientas Ofimáticas. Apoyar la gestión y recolección de información de los servicios que ofrece el ICBF por medio de la corporación. Digitar información confiable utilizando medios de información existentes.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="porfolio.png" alt="">
+                    <div class="overlay">
+                        <h3>Portfolio</h3>
+                        <p>Realizado en: Htms, Css y JavaScrip</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="turismo.png" alt="">
+                    <div class="overlay">
+                        <h3>Aplicacion web turismo del Huila</h3>
+                        <p>Realizado en: frontend react, backend node js, bd Mysql</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="rick.png" alt="">
+                    <div class="overlay">
+                        <h3>Api Rick and Morty</h3>
+                        <p>Realizado en: se consumio Api en Angular</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://linkedin.com/in/sof-andrescasallas" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/Andrescasallas" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
